@@ -1,5 +1,22 @@
 # This repo enables nucleus/cell classification on intestinal H&E into 14 classes
 
+![Description of Image](./cell_classification.png)
+
+This image shows a zoomed in section of a whole slide image of virtual H&E, where nuclei/cells have been classified into 14 classes.
+
+# Brief Overview
+This repo provides pretrained models (as well as code to train new models).
+The pretrained models were trained on virtual H&E to classify nuclei into 14 classes.
+
+**If you want to use this model on real H&E:**
+It is recommended for the H&E staining to be style transferred to the virtual H&E style.
+You can do that following instructions here: https://github.com/MASILab/he_stain_translation_cyclegan
+
+Then the nuclei must be located. 
+You can do that following instructions here: https://github.com/MASILab/hovernets_on_vhe
+
+
+
 # Citations
 If you use this repo, please cite
 - "Data-driven Nucleus Subclassification on Colon H&E using Style-transferred Digital Pathology"
@@ -9,6 +26,8 @@ The weights for 5 folds of trained resnets for nucleus classification on virtual
 **TODO**
 
 # Inference
+While the resnet was trained on 
+
 An example jupyter notebook showing how a pretrained model can be run on a whole slide image (virtual H&E) can be found in this repo
 ```inference_on_wsi.ipynb```
 

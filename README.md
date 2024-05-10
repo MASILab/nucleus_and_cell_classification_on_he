@@ -33,6 +33,8 @@ If you are in MASI lab, the paths are setup so that this inference notebook will
 
 If you are not in MASI lab, change paths accordingly.
 
+The pretrained models expect to perform inference on virtual H&E or H&E with resolution: 0.5 microns per pixel (mpp)
+
 # Training
 Training can be run using
 ```python __crossval_resnet_20k-steps_batch_256.py```

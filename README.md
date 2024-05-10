@@ -53,7 +53,8 @@ Then it learns to predict the center nucleus in the patch, given the class label
 
 # Working repo
 If you are in the MASI lab, you can access my working github repo here
-github.com/MASILab/gca_he/tree/master/segmentation/vhe
+
+https://github.com/MASILab/gca_he/tree/master/segmentation/vhe
 
 This repo includes all code fragments etc.
 

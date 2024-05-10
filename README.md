@@ -26,8 +26,6 @@ The weights for 5 folds of trained resnets for nucleus classification on virtual
 **TODO**
 
 # Inference
-While the resnet was trained on 
-
 An example jupyter notebook showing how a pretrained model can be run on a whole slide image (virtual H&E) can be found in this repo
 ```inference_on_wsi.ipynb```
 

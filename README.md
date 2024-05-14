@@ -4,7 +4,8 @@
 
 This image shows a zoomed in section of a whole slide image of virtual H&E, where nuclei/cells have been classified into 14 classes.
 
-**Note: pretrained weights are currently not public. They are only available to members of the MASI lab.**
+# Note: 
+**Pretrained weights are currently not public. They are only available to members of the MASI lab.**
 
 # Brief Overview
 This repo provides pretrained models (as well as code to train new models).

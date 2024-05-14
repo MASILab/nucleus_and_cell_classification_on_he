@@ -26,7 +26,8 @@ If you use this repo, please cite
 
 # Pretrained weights
 The weights for 5 folds of trained resnets for nucleus classification on virtual H&E can be found here:
-**TODO**
+**MASI Lab:** ```/nfs/masi/remedilw/paper_journal_nucleus_subclassification/nucleus_subclassification/weights```
+**Public:** Not currently available
 
 # Inference
 An example jupyter notebook showing how a pretrained model can be run on a whole slide image (virtual H&E) can be found in this repo

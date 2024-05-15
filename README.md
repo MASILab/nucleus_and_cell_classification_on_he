@@ -57,6 +57,11 @@ If you are not in the MASI lab, then the training script can be examined, but ba
 The resnet approach is simple. Given the coordinates of a nucleus, the dataloader reads a small patch around the nucleus, from the whole slide image (on the fly).
 Then it learns to predict the center nucleus in the patch, given the class label.
 
+# Note
+Please note that in the provided scripts, the training involved on-the-fly resampling of virtual H&E patches in the dataloader.
+However, in the provided inference script, the paths point to pre-resampled data, and so there is no on-the-fly resampling in the inference dataloader.
+Please carefully consider the resolution you choose to operate on and adapt the code accordingly.
+
 # Working repo
 If you are in the MASI lab, you can access my working github repo here
 

@@ -1,3 +1,12 @@
+
+# Nucleus Segmentation & Subclassification on H&E
+
+<img width="654" alt="image" src="https://github.com/user-attachments/assets/32372096-37fd-48c0-81f8-91deb485d4e7" />
+
+
+Publication: [Data-driven nucleus subclassification on colon hematoxylin and eosin using style-transferred digital pathology](https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-11/issue-6/067501/Data-driven-nucleus-subclassification-on-colon-hematoxylin-and-eosin-using/10.1117/1.JMI.11.6.067501.full)
+
+
 # This repo enables nucleus/cell classification on intestinal H&E into 14 classes
 
 ![Description of Image](./cell_classification.png)
